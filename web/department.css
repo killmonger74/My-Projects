@@ -1,0 +1,229 @@
+
+.content{
+    box-sizing: border-box;
+}
+.DEPART {
+    text-transform: uppercase;
+    transform: translateX(75%);
+    padding: 16px;
+    padding-bottom: 0;
+    
+}
+.DEPART .button a{
+color:white;
+
+}
+.dep1{
+    font-size:16px;
+    padding:16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    margin-top:-5%;
+   
+    
+}
+.row{
+    background:#2f7fc2;
+    border-radius: 20px;
+   
+}
+.row div{
+    display: inline-block;
+    
+}
+ .heading h1{
+    float: left;
+}
+.more {
+    margin-left:21%;
+}
+.more button{
+    margin-top:10%;
+}
+.dep1 .heading h1,.dep1 .heading .more{
+    width: 70%;
+    text-align: start;
+  
+    padding:16px;
+    padding-top:0;
+    color:white;
+    padding-bottom: 0;
+}
+.dep1 .heading h1{
+    float: left;
+    font-size:20px;
+}
+
+.dep1 .about{
+    clear: both;
+    padding:10px;
+}
+.HOD{
+    margin-top:5%;
+    padding:auto;
+    text-align: center;
+}
+.photo img{
+    border-radius: 50%;
+}
+.photo p{
+    padding:0 40px 0 40px;
+}
+.photo img:hover{
+    border-radius:10px;
+}
+.photo h2{
+    color:#2f7fc2;
+}
+.more .button{
+    margin-top:5% ;
+   
+}
+    
+      .content{
+          margin-left: 15%;
+      }
+    
+      @media only screen and (max-width:700px){
+       .site-header .header-type h1{
+           padding-top: 3%;
+            font-size:16px;
+            width: 90%;
+           
+        }.row{
+            background: none;
+        }
+        .dep1 .heading h1{font-size: 20px;
+            box-sizing: content-box;}
+
+        .container{
+       
+            width: 400px;
+            font-size:10px;
+        }
+        .about p{font-size:12px; box-sizing: content-box;}
+        .content{
+            margin:0;
+        }
+        .DEPART{
+            transform: translateX(65%);
+        }
+        .dep1 .about{
+            padding:10px ;
+            padding-left: 0;
+        }
+        .photo img{
+            width:50%;
+        }.photo h2{font-size:18px;}
+   .dep1 .heading h1{
+       background: #2f7fc2;
+       border-radius:10px ;
+       width: 90%;
+       padding:10px;
+        background: #2f7fc2;
+      
+        margin-top: 0%;
+   }
+   .more .button{    margin-left: 15%;
+    margin-top: -10%;}
+      }
+      @media (max-width:1200px){
+          .container{
+           
+            width: 1000px;
+          }
+          .content{
+              width: 370px;
+            margin-left: 15%;
+          }
+          .dep1 .heading h1{
+            margin-left: -7%;
+        }
+          .more{margin-left: 40%}
+
+      }
+      @media(max-width:1300px){
+        .DEPART{
+            transform: translateX(65%);
+            
+        }
+
+      }
+      @media only screen and (max-width:1200px){
+        .site-header .header-type h1{
+            padding-top: 3%;
+             font-size:12px;
+             
+            
+         }.row{
+          
+         }
+         
+            .DEPART{
+                transform: translateX(65%);
+            }
+        
+         .dep1 .heading h1{font-size: 20px;
+             box-sizing: content-box;}
+ 
+         .container{
+            
+             width: 400px;
+             font-size:10px;
+         }
+         .about p{font-size:12px; box-sizing: content-box;}
+         .content{
+             margin:0;
+         }
+         .DEPART{
+             transform: translateX(65%);
+         }
+         .dep1 .about{
+             padding:10px ;
+             padding-left: 0;
+         }
+         .photo img{
+             width:50%;
+         }.photo h2{font-size:18px;}
+    .dep1 .heading h1{
+        background: #2f7fc2;
+        
+        width: 100%;
+        padding:10px;
+    }
+       }
+      @media only screen and (max-width:900px){
+        .container{
+            width: 300px;
+            font-size:10px;
+        }
+        .dep1 .heading h1{
+            float: left;
+            font-size:20px;
+        }
+        .DEPART{
+            transform: translateX(65%);
+        }
+        .content{
+            margin:0;
+        }
+        .photo img{
+            width:50%;
+        }
+      
+      }
+    @media only screen and (min-width:4000px){
+  
+    .row{
+        background: none;
+    
+    } .dep1 .heading h1{
+        background: #2f7fc2;
+        border-radius: 10px;
+        width: 100%;
+        padding:10px;
+    }
+    
+   .more .button{    margin-left: 15%;
+    margin-top: -10%;}
+}

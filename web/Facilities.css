@@ -1,0 +1,62 @@
+
+.dep1 .heading h1{
+    
+    background: #2f7fc2;
+    width:100%;
+    padding:16px;
+    margin-top:0% ;
+}
+.photo-infra .inner img{
+    width: 300px;
+}
+.inner .edit{
+    margin-right: 5%;
+    max-width: 320px;
+}
+#img1{
+    float: left;
+
+}
+.useful-Links{
+    margin-top:-7%;
+}
+.nptel{
+   
+  
+}
+.utu{
+  
+    
+    
+}
+.id{margin-top:5%}
+@media (max-width:1200px){
+    .container{
+        width: 1000px;
+    }
+    .content {
+        margin-left:30%;     
+    }
+    .button{
+        transform:translateX(-50%);
+    }
+    .dep1 .heading h1{
+        padding:10px;
+        margin-top:-5%;
+    }
+    .inner .edit{
+        max-width: 300px;
+    }
+    .about p{
+        margin:0;
+    }
+}
+@media (max-width:900px){
+    .container{
+        width:500px;
+    }
+    .content{
+        margin:0;
+        margin-left:5%;
+    }
+}

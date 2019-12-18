@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                        <title>Login system</title>
+                                <link rel="stylesheet" href="login.css">
+
+                                        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+
+        <div class="flip">
+            <div class="flip-again">
+                    <div id ="front">
+                        <form action="index.php" method="GET">
+                            <div class ="form-box">
+                            <h1>Login Here</h1>
+                            <div class ="input-box">
+                            <i class="fa fa-envelope-o" aria-hidden="true" ></i>
+                             <input type="email"name="email" placeholder="Email.id" required id="lol">
+                            
+                           </div>
+                            <div class ="input-box">
+                            <i class="fa fa-key" aria-hidden="true"></i>
+                            <input type="password"  name="password"placeholder="Password" required id="kuldeep">
+               
+                          <span class="eye" > 
+        
+                         <i id="hide1" class="fa fa-eye-slash" aria-hidden="true" onclick="my()"></i>
+        
+                           <i id="hide" class="fa fa-eye" aria-hidden="true" onclick="my()"></i>
+                
+                        </span>
+                         </div>
+                            <div>
+                              <a href="login.html"> 
+                                  <button id="button1">Login</button></a>
+          
+                                </form>
+                             <button id ="forget"  > 
+                             Create New Account</button>
+      
+                              </div>
+
+   
+                     </div>
+                </div>
+
+            <div id="back">
+                  <div class ="form-box">
+                      <h1>Sign Up Here</h1>
+                      <form action="registration.php" method="POST">
+                          <div class ="input-box">
+                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                              <input type="email" name="email1"placeholder="Email.id" required autofocus id="lol1">
+                               </div>
+                           <div class ="input-box">
+                               <i class="fa fa-key" aria-hidden="true"></i>
+                                <input type="password" name="password1"placeholder="Choose a Password"  required autofocus id="kuldeep1">
+               
+                               <span class="eye" > 
+
+                                    <i id="hide2" class="fa fa-eye-slash" aria-hidden="true" ></i>
+        
+                                   <i id="hide3" class="fa fa-eye" aria-hidden="true"></i>
+                
+                              </span> 
+
+                          </div>
+                     <div class="input-box">
+                          <i class="fa fa-key" aria-hidden="true"></i>
+                             <input type="password"name="password2" placeholder="Confirm Password" reqiured id="rana">
+                         
+                         <span class="eye" > 
+        
+                              <i id="hide4" class="fa fa-eye-slash" aria-hidden="true"></i>
+           
+                             <i id="hide5" class="fa fa-eye" aria-hidden="true"></i>
+                   
+                          </span> 
+                     </div>
+            
+            
+                           <div>
+                                 <a href="#">   <button id="button">Create Account</button></a>
+                            </div>
+                            </form>
+                            
+            
+            
+                           <div>
+                                <a href="#">   <button id="button7">Login</button></a>
+                           </div>
+                 </div>
+
+
+
+     </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

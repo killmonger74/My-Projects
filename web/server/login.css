@@ -1,0 +1,125 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+body{
+    background:#656c71;
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif; 
+    background-repeat: no-repeat;
+    color: white;
+    transform: perspective(1000px);
+
+    
+}
+.flip{
+    display: block;
+    width: 500px;
+    height: 500px;
+    padding-left:25%;
+}
+#back{
+    display: none;
+}
+
+
+.form-box{
+    width: 500px;
+    background:black;
+    opacity: 0.7;
+    margin: 12% auto;
+    padding:50px 0;
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.5);
+    border-radius: 25px;
+    
+}
+.form-box:hover{
+    animation:kuldeep;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+h1{
+    text-align:center;
+    margin-bottom:40px;
+
+}
+.input-box{
+    margin:31px auto;
+    width: 80%;
+    outline: none;
+    border-bottom:1px solid #fff;
+    padding:10px 0 5px 0;
+}
+.input-box input{
+    width:90%;
+    border:none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+
+}
+::placeholder{
+    color:#ccc;
+    
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+.eye:hover{
+    transform: scale(1.1);
+}
+#hide1,#hide2,#hide4{
+    display:none;
+}
+#button,#forget,#button1,#button7{
+    color:#fff;
+    display: block;
+    width:80%;
+    opacity: 0.8;
+    background:black ;
+    margin:40px auto 40px;
+    padding: 10px 0;
+    outline:none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.back{
+    display:none;
+}
+
+#toogle{
+    display: none;
+}
+#button:hover,#button1:hover,#button7:hover{
+    background:rgba(145, 255, 0,0.4);
+    transform: scale(1.1);
+}
+#forget:hover{
+    background:rgba(145, 255, 0,0.4);
+    transform: scale(1.1);
+}
+h1,#button,#forget{
+    animation: fkk;
+    animation-duration: 3s;
+    animation-timing-function:cubic-bezier(.09,.82,.74,.14); 
+        animation-iteration-count:infinite;
+
+}
+
+h1:hover{
+    animation-play-state: paused;
+    
+
+}
+#button:hover{ animation-play-state: paused;}
+
